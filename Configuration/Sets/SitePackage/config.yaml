@@ -1,0 +1,4 @@
+name: sarah-mccarthy/muenster-nightwatchmen-site-package
+label: 'Muenster Nightwatchmen Site Package'
+dependencies:
+  - bootstrap-package/full

@@ -1,0 +1,33 @@
+page= PAGE
+page {
+    10 = PAGEVIEW
+    10 {
+        paths {
+            0 = EXT:muenster_nightwatchmen_site_package/Resources/Private/PageView/
+            10 = {$BootstrapPackage.template_path}
+        }
+
+        dataProcessing {
+            # makes content elements available as {content} in Fluid template
+            10 = page-content
+        }
+    }
+    shortcutIcon = {$BootstrapPackage.favicon}
+    #shortcutIcon = EXT:muenster_nightwatchmen_site_package/Resources/Public/Icons/favicon.ico
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        muenster_nightwatchmen_site_package_scripts = EXT:muenster_nightwatchmen_site_package/Resources/Public/JavaScript/main.js
+    }
+}
